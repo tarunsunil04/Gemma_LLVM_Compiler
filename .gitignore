@@ -1,0 +1,14 @@
+.vs/
+out/
+build/
+bin/
+*.user
+CMakeCache.txt
+CMakeFiles/
+third_party/*/build/
+third_party/*/out/
+src/safetensors/model_dir/
+*.safetensors
+*.bin
+*.gguf
+*.pt
