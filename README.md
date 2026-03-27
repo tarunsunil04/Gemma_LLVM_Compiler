@@ -1,7 +1,7 @@
 # Gemma LLVM Compiler 
 
 Exactly what it sounds like: An LLVM-based compiler for the Gemma 2B Model. The best way to describe this project would be to compare it to `gemma.cpp`. This is basically `gemma.cpp`, but written using the LLVM API, as opposed to 
-Google's Highway library.
+Google's Highway SIMD API.
 
 Note that for now, this works with Gemma-2B-it with BF16 precision only. Support for quantized models with other file formats (as of now, only SAFETENSORS are supported) are also yet to come.
 
